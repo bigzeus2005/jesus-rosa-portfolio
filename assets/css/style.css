@@ -51,7 +51,7 @@ nav a:hover {
   background-color: #cac690;
   color: rgb(138, 2, 2);
   text-decoration: none;
-  transition: all 300ms ease;
+  transition: all 500ms ease;
 }
 
 main {
@@ -76,29 +76,40 @@ main div {
   border-left: 2px solid rgb(138, 2, 2);
   width: 75%;
   margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-
+span {
+  text-decoration: none;
+  color: rgb(138, 2, 2);
+}
 
 article, section {
   display: flex;
 }
 
-section a {
+main div a {
   display: flex;
-  display: inline-block;
+  flex-direction: column;
   width: 50%;
 }
 
-section a:nth-child(1) {
+main div a img:hover {
+  opacity: 75%;
+  transition: all 500ms ease;
+  border: 1px solid rgb(138, 2, 2);
+  box-shadow: 2px black;
+}
+
+main div a:nth-child(1) {
   display: flex;
-  display: inline-block;
   width: 100%;
 }
 
 img {
-  height: 150px; 
-  width: auto; 
+  width: 100%; 
+  padding: 2px;
 }
 
 p {
