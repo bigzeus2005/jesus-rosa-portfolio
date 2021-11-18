@@ -13,6 +13,7 @@ header {
   padding: 20px;  
   background-color:rgb(138, 2, 2);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -21,13 +22,14 @@ header h1 {
   display: inline-block;
   font-size: 40px;
   color: #cac690;
+  float: left;
 }
 
 header h2 {
   font-size: 20px;
   margin: 8px 0;
   color: #cac690;
-  float: none;
+  float: left;
   text-align: left;
   padding: 20px;
 }
@@ -35,7 +37,7 @@ header h2 {
 nav {
   color: #cac690;
   padding-top: 20px;
-  margin: auto;
+  margin: 20px;
   float: right;  
   font-size: 20px;
 }
@@ -54,6 +56,8 @@ nav a:hover {
 
 main {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   padding: 20px;
   flex-direction: column;
 }
@@ -61,7 +65,7 @@ main {
 main h2 {
   text-align: right;
   margin-right: 12px;
-  width: 300px;
+  width: 25%;
   color: rgb(138, 2, 2);
   font-size: 32px;  
   padding: 12px 0;
@@ -70,7 +74,11 @@ main h2 {
 main div {
   padding: 12px;
   border-left: 2px solid rgb(138, 2, 2);
+  width: 75%;
+  margin-bottom: 8px;
 }
+
+
 
 article, section {
   display: flex;
@@ -95,27 +103,34 @@ img {
 
 p {
   color: rgb(138, 2, 2);
+  padding: 4px 0;
 }
 
 footer {
+  display: flex;  
   background-color: rgb(138, 2, 2);
   color: #cac690;
   padding: 20px;
   font-size: 20px;
+  width: 100%;
 }
 
-footer h2 {
-  display: inline-block;
+footer h2 {  
   text-align: right;  
-  width: 300px;
-  font-size: 32px;  
-  border-right: 2px solid #cac690;
-  padding: 0 12px;
+  width: 25%;
+  font-size: 32px;   
+  padding: 12px;
+  
+}
+
+footer nav {    
+  width: 75%;  
+  border-left: 2px solid #cac690;
 }
 
 footer a {
+  float: right;
   color: #cac690;
   padding: 4px;
-  float: right;
-  
 }
+
