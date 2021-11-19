@@ -6,7 +6,7 @@ html, * {
 
 body {
   background-color: #cac690;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
 header {
@@ -16,6 +16,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
 header h1 {
@@ -54,6 +55,14 @@ nav a:hover {
   transition: all 500ms ease;
 }
 
+.sunrise {
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  width: 100%;
+  border-bottom: 2px solid rgb(138, 2, 2);
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -89,6 +98,13 @@ article, section {
   display: flex;
 }
 
+.profile-pic {
+  border: 1px solid rgb(138, 2, 2);
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
+
 main div a {
   display: flex;
   flex-direction: column;
@@ -98,8 +114,8 @@ main div a {
 main div a img:hover {
   opacity: 75%;
   transition: all 500ms ease;
-  border: 1px solid rgb(138, 2, 2);
-  box-shadow: 2px black;
+  border: 2px solid rgb(138, 2, 2);
+  background-color: black;
 }
 
 main div a:nth-child(1) {
@@ -124,6 +140,7 @@ footer {
   padding: 20px;
   font-size: 20px;
   width: 100%;
+  border-top: 2px solid black;
 }
 
 footer h2 {  
