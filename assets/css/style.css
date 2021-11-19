@@ -6,7 +6,7 @@ html, * {
 
 body {
   background-color: #cac690;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;     
 }
 
 header {
@@ -17,6 +17,7 @@ header {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid black;
+  text-shadow: 2px 2px 0 black;
 }
 
 header h1 {
@@ -78,6 +79,7 @@ main h2 {
   color: rgb(138, 2, 2);
   font-size: 32px;  
   padding: 12px 0;
+  text-shadow: 2px 2px 0 black;
 }
 
 main div {
@@ -131,6 +133,7 @@ img {
 p {
   color: rgb(138, 2, 2);
   padding: 4px 0;
+  text-shadow: .25px .25px 0 black;
 }
 
 footer {
@@ -141,6 +144,7 @@ footer {
   font-size: 20px;
   width: 100%;
   border-top: 2px solid black;
+  text-shadow: 2px 2px 0 black;
 }
 
 footer h2 {  
