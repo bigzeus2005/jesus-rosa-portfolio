@@ -42,6 +42,7 @@ nav {
   margin: 20px;
   float: right;  
   font-size: 20px;
+  text-shadow: 1px 1px 0 black;
 }
 
 nav a {
@@ -158,6 +159,7 @@ footer h2 {
 footer nav {    
   width: 75%;  
   border-left: 2px solid #cac690;
+  text-shadow: 1px 1px 0 black;
 }
 
 footer a {
