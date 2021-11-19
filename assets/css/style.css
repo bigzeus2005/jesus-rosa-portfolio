@@ -5,7 +5,7 @@ html, * {
 }
 
 body {
-  background-color: #cac690;
+  background-color: lemonchiffon;
   font-family: Verdana, Geneva, Tahoma, sans-serif;     
 }
 
@@ -23,21 +23,21 @@ header {
 header h1 {
   display: inline-block;
   font-size: 40px;
-  color: #cac690;
+  color: lemonchiffon;
   float: left;
 }
 
 header h2 {
   font-size: 20px;
   margin: 8px 0;
-  color: #cac690;
+  color: lemonchiffon;
   float: left;
   text-align: left;
   padding: 20px;
 }
 
 nav {
-  color: #cac690;
+  color: lemonchiffon;
   padding-top: 20px;
   margin: 20px;
   float: right;  
@@ -46,12 +46,12 @@ nav {
 }
 
 nav a {
-  color: #cac690;
+  color: lemonchiffon;
   padding: 4px;
 }
 
 nav a:hover {
-  background-color: #cac690;
+  background-color: lemonchiffon;
   color: rgb(138, 2, 2);
   text-decoration: none;
   transition: all 500ms ease;
@@ -80,7 +80,7 @@ main h2 {
   color: rgb(138, 2, 2);
   font-size: 32px;  
   padding: 12px 0;
-  text-shadow: 2px 2px 0 black;
+  text-shadow: 1px 1px 0 black;
 }
 
 main div {
@@ -140,7 +140,7 @@ p {
 footer {
   display: flex;  
   background-color: rgb(138, 2, 2);
-  color: #cac690;
+  color: lemonchiffon;
   padding: 20px;
   font-size: 20px;
   width: 100%;
@@ -158,13 +158,13 @@ footer h2 {
 
 footer nav {    
   width: 75%;  
-  border-left: 2px solid #cac690;
+  border-left: 2px solid lemonchiffon;
   text-shadow: 1px 1px 0 black;
 }
 
 footer a {
   float: right;
-  color: #cac690;
+  color: lemonchiffon;
   padding: 4px;
 }
 
