@@ -25,14 +25,14 @@ Lastly, I gave the repository a unique name, ensuring it followed best practices
 
 ### Visuals
 
-![screencapture1](./)  
+![screencapture1](./assets/images/screencap.png)  
 
 ### Links
 
-[Link to application](https://bigzeus2005.github.io/seo-refactor-project/)  
-[Link to GitHub](https://github.com/bigzeus2005/seo-refactor-project)
+[Link to application](https://bigzeus2005.github.io/jesus-rosa-portfolio/)  
+[Link to GitHub](https://github.com/bigzeus2005/jesus-rosa-portfolio)
 
 
 ### Usage
 
-This project was used to help us become more familiar with GitHub along with helping become more familiar with making website SEO friendly. It encompassed many elements of the aspects covered in the course over the first several days. These included HTML semantics, as well as, proper usage of CSS. 
+This project was used to help us become more familiar with advanced CSS styling. It encompassed many elements of the aspects covered in the course over the first and second week of the course. These included HTML semantics, as well as, proper usage of CSS. 
