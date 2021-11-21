@@ -168,3 +168,35 @@ footer a {
   padding: 4px;
 }
 
+@media screen and (max-width: 1200px) {
+  body {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    width: 25%;
+  }
+  div {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    width: 25%;
+  }
+  div {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    width: 25%;
+  }
+  div {
+    width: 75%;
+  }
+}
